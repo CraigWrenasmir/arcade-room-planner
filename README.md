@@ -37,4 +37,4 @@ Open http://localhost:4287. Static browser assets are in `dist/`. Three.js 0.186
 
 There is no analytics, account system, external API or upload service. Layouts are saved locally. Share links put the layout in the URL fragment; anyone you share the link with can read that layout. Downloaded JSON files contain room dimensions, item names, colours and placements.
 
-Experimental WebMCP read/add tools are feature-detected. Their registration and valid/invalid execution were tested against an API shim; native WebMCP browser support was not available for validation.
+Experimental WebMCP read/add tools are feature-detected. Their registration and valid/invalid execution were tested against both an API shim and the native Codex browser WebMCP interface, with state read-back.
