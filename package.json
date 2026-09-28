@@ -1,0 +1,1 @@
+{"name":"arcade-room-planner","version":"1.0.0","private":true,"type":"module","scripts":{"start":"python3 -m http.server 4287 -d dist","check":"node --check dist/app.js && node --check dist/scene.js && node --check dist/model.js"},"dependencies":{"three":"0.186.1"}}
